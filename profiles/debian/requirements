@@ -4,6 +4,7 @@ curl
 nano
 grep
 git
+jq
 gnupg
 bash-completion
 man
@@ -15,6 +16,4 @@ npm
 python
 python-pip
 python-pipx
-proot-distro
-which
-termux-tools
+

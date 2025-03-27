@@ -1,0 +1,9 @@
+[core]
+	editor = nano
+	excludesfile = ~/.config/git/_gitignore
+[init]
+	defaultBranch = main
+[user]
+        name = Mattia Marchesini
+        email = mattia.marchesini1999@gmail.com
+

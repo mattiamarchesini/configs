@@ -4,3 +4,4 @@ curl
 nano
 grep
 git
+jq

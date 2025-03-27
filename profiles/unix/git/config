@@ -1,0 +1,6 @@
+[core]
+	editor = nano
+	excludesfile = ~/.config/git/_gitignore
+[init]
+	defaultBranch = main
+
