@@ -1,9 +1,23 @@
 [core]
 	editor = nano
-	excludesfile = ~/.config/git/_gitignore
+	excludesfile = ~/.config/git/gitignore
 [init]
 	defaultBranch = main
 [user]
         name = Mattia Marchesini
         email = mattia.marchesini1999@gmail.com
+[difftool]
+	prompt = true
+[difftool "vscode_diff"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[mergetool]
+	prompt = true
+[mergetool "vscode_merge"]
+	cmd = code --wait $MERGED
+[gui]
+	encoding = utf-8
+[init]
+	defaultBranch = main
+[include]
+	path = local_config
 
