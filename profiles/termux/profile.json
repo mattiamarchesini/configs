@@ -1,5 +1,5 @@
 {
-    "from":"base",
+    "from":"debian",
     "paths":{
       "a":{}
     },
