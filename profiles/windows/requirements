@@ -1,6 +1,4 @@
-bash
-which
-curl
-nano
-grep
+powershell
+winget
+wsl
 git
