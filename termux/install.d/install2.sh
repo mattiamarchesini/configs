@@ -1,0 +1,7 @@
+termux-setup-storage
+
+pkg install proot proot-distro which 
+
+pkg install proot proot-distro
+proot-distro install debian
+#proot-distro login debian

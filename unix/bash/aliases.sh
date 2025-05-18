@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 
-ll() { ls -alF "$@"; }
-la() { ls -A "$@"; }
-l() { ls -CF "$@"; }
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
-c() { clear; }
-e() {
-    exit
-}
+alias c='clear'
+alias e='exit'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
