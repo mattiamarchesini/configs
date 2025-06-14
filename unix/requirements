@@ -1,8 +1,6 @@
 bash
-which
 curl
-nano
-git
+wget
 jq
-zip
-unzip
+tar
+nano

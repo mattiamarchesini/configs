@@ -1,7 +1,5 @@
 {
-    "from":"linux",
-    "paths":{
-      "a":{}
-    },
-    "installScript": "install.sh"
+  "from":"linux",
+  "paths":{
+  },
 }

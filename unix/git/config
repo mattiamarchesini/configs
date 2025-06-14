@@ -1,6 +1,8 @@
 [core]
 	editor = nano
-	excludesfile = ~/.config/git/gitignore
+	excludesfile = ~/.config/git/ignore
+        # Defaults to:
+	# attributesFile = ~/.config/git/attributes
 [init]
 	defaultBranch = main
 [user]
@@ -16,8 +18,6 @@
 	cmd = code --wait $MERGED
 [gui]
 	encoding = utf-8
-[init]
-	defaultBranch = main
 [include]
 	path = local_config
 

@@ -1,31 +1,21 @@
-#!/bin/bash
+#!/usr/bin/env bash
+export DEBIAN_FRONTEND=noninteractive
+apt update && apt upgrade -y
+apt install -y --no-install-suggests $(cat requirements | tr "\n" " ")
 
-set -xe
-
-function update_sys() {
-  pkg update && pkg upgrade -y
-}
-
-function install_dependencies() {
-  pkg install -y "$(cat requirements | tr "\n" ' ')"
-  # install termux-adb
-  curl -s https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash
-  
-  install_acodex_server
-  
-  pip install -U pipx
-}
-
-# Acodex is a plugin for the Acode app (F-Droid)
-function install_acodex_server() {
-  mkdir -p $HOME/.gyp && \
-   echo "{'variables': {'android_ndk_path': ''}}" > $HOME/.gyp/include.gypi
-
-  npm i -g acodex-server
-}
-
-update_sys
-install_dependencies
+bash 
 termux-setup-storage
+ln -s /storage/emulated/0/user-data $HOME/
+#ln -s /storage/emulated/0/git $HOME/
+mkdir $HOME/git
+mkdir $HOME/.config
+mkdir -p $HOME/.local/bin
+mkdir -p $HOME/.local/share
+touch $HOME/.hushlogin
+
+# use ~/.config/termux instead of cluttering HOME
+rm -rf $HOME/.termux
+
+$HOME/git/configs/.bin/cfg init termux
+
 proot-distro install debian
-#proot-distro login debian

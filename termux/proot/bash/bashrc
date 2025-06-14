@@ -1,0 +1,8 @@
+function source_b() {
+  bash_dir="$XDG_CONFIG_HOME/bash"
+  source "$bash_dir"/$1'
+}
+export -f source_b 
+
+source_b aliases.sh
+

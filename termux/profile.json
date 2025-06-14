@@ -1,7 +1,6 @@
 {
-    "from":"debian",
-    "paths":{
-      "a":{}
-    },
-    ""
+  "from":"linux",
+  "subsystems": {
+    "proot": {}
+  }
 }

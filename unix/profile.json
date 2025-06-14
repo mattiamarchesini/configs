@@ -1,7 +1,13 @@
 {
-    "from":"base",
-    "paths":{
-      "a":{}
-    },
-    ""
+  "from": "none",
+  "paths":{
+    "scripts/*": "~/.local/bin/",
+    "etc/*": {
+      "path": "/etc/",
+      "owner": "root"
+    }
+    ".bashrc": "~/.bashrc",
+    ".profile": "~/.profile",
+    ".hushlogin": "~/.hushlogin"
+  }
 }

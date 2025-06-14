@@ -1,2 +1,4 @@
 test -f ~/.profile && . ~/.profile
+export SHELL=/bin/bash
+
 test -f ~/.bashrc && . ~/.bashrc

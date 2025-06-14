@@ -5,8 +5,8 @@ export PATH="$XDG_BIN_HOME:$PATH"
 export REPOS_HOME=$HOME/git
 
 export LESSHISTFILE=/dev/null
-#export NIX_PATH='nixpkgs=channel:nixos-23.11'
 
+# If running bash
 if [ -n "$BASH_VERSION" ]; then
     if [ -f "$HOME/.bashrc" ]; then
         . "$HOME/.bashrc"

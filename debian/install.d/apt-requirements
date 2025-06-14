@@ -1,0 +1,9 @@
+bash
+curl
+wget
+jq
+bash-completion
+man
+manpages
+manpages-dev
+nano

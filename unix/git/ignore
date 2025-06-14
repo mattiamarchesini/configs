@@ -1,0 +1,70 @@
+bin/
+dist/
+build/
+out/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env/
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled source
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# Backup & temp files
+*~
+~*
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Git
+*.orig
+*.rej
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Code coverage
+coverage/
+.coverage
+*.lcov
+.nyc_output/
+
+# OS generated
+[Tt]humbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+.DS_Store

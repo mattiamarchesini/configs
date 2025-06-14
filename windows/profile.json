@@ -1,9 +1,7 @@
 {
-    "usesProfile": "wsl"
-    "paths":{
-      "@root": "/mnt/c/"
-      "@home": "Users/mattia/"
-      "a":{}
-    },
-    ""
+  "paths":{
+  },
+  "subsystems": {
+    "wsl": null
+  }
 }

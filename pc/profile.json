@@ -1,0 +1,6 @@
+{
+  "from": "windows"
+  "subsystems": {
+    "wsl" {}
+  }
+}
