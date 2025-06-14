@@ -1,4 +1,6 @@
 {
+  "from": "none",
+  "shell": "powershell",
   "paths":{
   },
   "subsystems": {

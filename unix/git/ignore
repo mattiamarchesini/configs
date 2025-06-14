@@ -33,10 +33,14 @@ logs/
 # Compiled source
 *.class
 *.o
-*.so
-*.dll
 *.exe
 *.out
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
 
 # Backup & temp files
 *~
@@ -44,7 +48,6 @@ logs/
 *.swp
 *.bak
 *.tmp
-*.orig
 
 # Git
 *.orig
