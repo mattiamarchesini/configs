@@ -1,4 +1,7 @@
-test -f ~/.profile && . ~/.profile
-export SHELL=/bin/bash
+set -o allexport
+. ~/.config/env
+set +o allexport
+
 
 test -f ~/.bashrc && . ~/.bashrc
+

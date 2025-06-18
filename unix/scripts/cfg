@@ -16,58 +16,17 @@ read_profile() {
 }
 
 function apply {
-  args_opts
   echo "apply $@"
 }
 
 function init {
-  args_opts
   echo "init $@"
 }
 
 function deploy {
-  args_opts
   echo "deploy $@"
 }
 
-shopt -s expand_aliases
-alias args_opts='{ read -r args; read -r opts; } <<< "$(separate_args_opts $@)"'
-
-separate_args_opts() {
-  arguments=()
-  options=()
-
-  # Loop through all input arguments
-  while [[ $# -gt 0 ]]; do
-    case "$1" in
-      --*)  # Match options like --depth, --branch, etc.
-        options+=("$1")
-        shift
-        # Check if the option has a value
-        if [[ $# -gt 0 && "$1" != --* ]]; then
-          options+=("$1")
-          shift
-        fi
-        ;;
-      -*)  # Match short options like -b, -o, etc.
-        options+=("$1")
-        shift
-        # Optionally add the value
-        if [[ $# -gt 0 && "$1" != -* ]]; then
-          options+=("$1")
-          shift
-        fi
-        ;;
-      *)  # Non-option argument (e.g., repo URL)
-        arguments+=("$1")
-        shift
-        ;;
-    esac
-  done
-  #printf 'Options: %s\n' "${options[@]}"
-  #printf 'Arguments: %s\n' "${arguments[@]}"
-  printf '%s\n%s' "${arguments[@]}" "${options[@]}"
-}
 
 commands=('init' 'apply' 'deploy')
 
@@ -85,13 +44,13 @@ function main {
     echo "Command $cmd not found" >&2
     exit 1
   fi
-
+  echo "$@"
   "$cmd" "$@"
 }
 
 #-----
 
-TEST=1
+#TEST=1
 if [ -z "$TEST" ]; then
   main $@
 else

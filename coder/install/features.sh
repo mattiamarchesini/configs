@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function feature_ssh {
-  pk install ssh
+  dnf --set-opt="" ssh
   ssh-keygen -t ed25519 -C "$CREDENTIALS_EMAIL"
   ssh-add ~/.ssh/id_ed25519
 }

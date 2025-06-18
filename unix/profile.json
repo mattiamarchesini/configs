@@ -7,8 +7,14 @@
       "path": "/etc/",
       "owner": "root"
     }
-    ".bashrc": "~/.bashrc",
-    ".profile": "~/.profile",
-    ".hushlogin": "~/.hushlogin"
+    "bash/bashrc": {
+      "path": "~/.bashrc",
+      "strategy": "concatenate"
+    }
+    "bash/bash_profile": {
+      "path": "~/.bash_profile",
+      "strategy": "concatenate"
+    }
+    "hushlogin": "~/.hushlogin"
   }
 }
