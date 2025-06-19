@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
 function install_paru {
-  git clone https://aur.archlinux.org/paru.git
+  paru_dir="~/.cache/paru"
+  git clone https://aur.archlinux.org/paru.git $paru_dir
   echo "mattia ALL=(ALL) NOPASSWD: /usr/bin/pacman" > /etc/sudoers.d/free-pacman
-  sudo --user=mattia makepkg -si --noconfirm -D paru
+  sudo --user=mattia makepkg -si --noconfirm -D $paru_dir
   rm /etc/sudoers.d/free-pacman
   rm -rf paru
-}
-
-function install_bootloader {
 }
 
 if command -v systemctl > /dev/null; then
@@ -30,11 +28,3 @@ passwd mattia
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 install_paru
-
-mkinitcpio -P
-
-install_bootloader
-
-rm /install-2.sh
-
-reboot
