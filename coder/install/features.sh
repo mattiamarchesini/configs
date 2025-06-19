@@ -14,3 +14,12 @@ function feature_gpg {
   # Copy  the GPG key ID, in ASCII armor format
   gpg --armor --export "$key_id" | clp
 }
+
+function feature_neovim_env {
+  if command -v nvim &> /dev/null; then
+    echo "nvim is installed"
+    echo 'installing neovim stuff'
+  else
+    echo "nvim is not installed"
+  fi
+}
