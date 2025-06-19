@@ -6,7 +6,7 @@ function install_paru {
   echo "mattia ALL=(ALL) NOPASSWD: /usr/bin/pacman" > /etc/sudoers.d/free-pacman
   sudo --user=mattia makepkg -si --noconfirm -D $paru_dir
   rm /etc/sudoers.d/free-pacman
-  rm -rf paru
+  rm -rf $paru_dir
 }
 
 if command -v systemctl > /dev/null; then
