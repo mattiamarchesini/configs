@@ -4,3 +4,4 @@ wget
 jq
 tar
 nano
+python
