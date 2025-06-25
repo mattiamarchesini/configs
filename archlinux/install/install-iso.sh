@@ -14,7 +14,7 @@ bash -c 'install/disk_part_tool.sh'
 
 pacman -Syu
 PKGS=$(cat install/pacman-requirements | tr "\n" " ")
-pacstrap /mnt $PKGS arch-install-scripts networkmanager
+pacstrap /mnt $PKGS arch-install-scripts networkmanager linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab
 
 cp install/install.sh /mnt/
