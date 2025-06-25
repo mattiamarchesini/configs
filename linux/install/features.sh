@@ -12,7 +12,7 @@ function feature_neovim {
     fi
   fi
 
-  curl -o $HOME/.cache/nvim -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+  curl -o $HOME/.cache/nvim -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-${arch}.appimage
   chmod u+x $HOME/.cache/nvim
   mv -f $HOME/.cache/nvim $HOME/.local/bin/nvim
 

@@ -1,6 +1,7 @@
 bash
 curl
 wget
-jq
+yq
 tar
 nano
+pyton3

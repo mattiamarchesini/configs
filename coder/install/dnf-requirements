@@ -7,3 +7,6 @@ nano
 dnf-plugins-core
 python3
 
+git
+openssh
+

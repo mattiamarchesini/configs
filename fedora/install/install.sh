@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-dnf install --setopt="install_weak_deps=False" $(cat ~/config/)
+dnf install -y --setopt='install_weak_deps=False' $(cat install/dnf-requirements | tr "\n" " ")
