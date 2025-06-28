@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 
-function feature_neovim {
+feature_neovim_env() {
+  if command -v nvim &> /dev/null; then
+    echo "nvim is installed"
+    echo 'installing neovim stuff'
+  else
+    echo "nvim is not installed" 1>&2
+  fi
+}
+
+feature_neovim() {
   # Install official appimage
   arch=$(uname -m)
   if [[ "$arch" != "x86_64" && "$arch" != "arm64" ]]; then
@@ -16,7 +25,7 @@ function feature_neovim {
   chmod u+x $HOME/.cache/nvim
   mv -f $HOME/.cache/nvim $HOME/.local/bin/nvim
 
-  VENV_DIR="$HOME/.local/share/venvs"
+  VENV_DIR="$HOME/.local/share/pyenvs/"
   if [ -d "$VENV_DIR" ]; then
     NEOVIM_VENV_PATH="$VENV_DIR/neovim"
     python3 -m venv "$NEOVIM_VENV_PATH"

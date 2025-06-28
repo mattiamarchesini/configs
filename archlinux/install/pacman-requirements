@@ -1,7 +1,15 @@
 base
 base-devel
 bash
-git
-nano
+bash-completion
 curl
 wget
+git
+yq
+tar
+gzip
+less
+nano
+python
+man-db
+man-pages

@@ -6,6 +6,9 @@
     "etc/*": {
       "path": "/etc/",
       "owner": "root"
+    },
+    "bash/*": {
+      "strategy": "concatenate"
     }
     "bash/bashrc": {
       "path": "~/.bashrc",

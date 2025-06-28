@@ -1,9 +1,13 @@
 bash
+bash-completion
 curl
 wget
-jq
-bash-completion
-man
+yq
+tar
+gzip
+less
+nano
+python3
+man-db
 manpages
 manpages-dev
-nano

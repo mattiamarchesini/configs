@@ -1,7 +1,11 @@
 bash
-which
+bash-completion@2
 curl
+wget
+yq
+tar
+gzip
+less
 nano
-grep
-git
-jq
+python@3
+# export MANPATH="/opt/homebrew/opt/coreutils/share/man:$MANPATH"

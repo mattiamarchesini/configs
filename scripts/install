@@ -1,0 +1,7 @@
+# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install.sh | bash
+# iwr -UseBasicParsing https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | iex
+
+curl -fL -o configs.tar.gz https://github.com/mattiamarchesini/configs/archive/refs/heads/main.tar.gz
+tar -xzf configs.tar.gz
+cd configs-main
+bash scripts/cfg install $INSTALL_ARGS $PROFILE

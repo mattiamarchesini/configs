@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+feature_python_envs() {
+  mkdir ~/.local/share/pyenvs
+  
+}
+
+feature_python_pipx() {
+  pka pipx
+}
+
+feature_python_poetry() {
+  pipx install poetry
+}
+

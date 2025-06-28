@@ -1,5 +1,15 @@
+bash
 bash-completion
-man
+curl
+wget
+yq
+tar
+gzip
+less
+nano
+python3
+python-is-python3
+man-db
 manpages
 proot
 proot-distro
