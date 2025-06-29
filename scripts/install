@@ -4,4 +4,4 @@
 curl -fL -o configs.tar.gz https://github.com/mattiamarchesini/configs/archive/refs/heads/main.tar.gz
 tar -xzf configs.tar.gz
 cd configs-main
-bash scripts/cfg install $INSTALL_ARGS $PROFILE
+python3 scripts/cfg.py install $INSTALL_ARGS $PROFILE
