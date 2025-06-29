@@ -3,4 +3,7 @@
   "subsystems": {
     "proot": {}
   }
+  "paths": {
+    "hushlogin": "~/.hushlogin"
+  }
 }

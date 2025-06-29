@@ -14,10 +14,9 @@
       "path": "~/.bashrc",
       "strategy": "concatenate"
     }
-    "bash/bash_profile": {
+    "bash/profile": {
       "path": "~/.bash_profile",
       "strategy": "concatenate"
     }
-    "hushlogin": "~/.hushlogin"
   }
 }

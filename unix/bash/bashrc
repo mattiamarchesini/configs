@@ -26,16 +26,15 @@ shopt -s globstar
 # Filenames starting with . are included in * pathname expansion
 shopt -s dotglob
 
+export bash_dir="$XDG_CONFIG_HOME/bash"
 function source_b() {
-  bash_dir="$XDG_CONFIG_HOME/bash"
-  source "$bash_dir/$1.sh"
+  source "${bash_dir}/${1}.bash"
 }
 export -f source_b
 
 case "$TERM" in
 xterm*|rxvt*)
   source_b colors
-
   ;;
 *)
   ;;
