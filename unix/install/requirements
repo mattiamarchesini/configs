@@ -1,4 +1,5 @@
 bash
+# bash-completion
 curl
 wget
 yq
@@ -8,4 +9,4 @@ less
 nano
 python3
 man
-# bash-completion
+

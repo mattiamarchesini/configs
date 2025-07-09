@@ -1,0 +1,143 @@
+# Il pacchetto installato non è disponibile in alcuna origine:
+
+AMD Software
+IIS 10.0 Express
+Windows Subsystem for Linux WSLg Preview
+Microsoft Visual Studio Installer
+Controllo integrità PC Windows
+Microsoft Update Health Tools
+Windows Subsystem for Linux Update
+AMD Chipset Software
+Lenovo Vantage Service
+iDisplay 3.1.2
+vs_CoreEditorFonts
+Windows SDK AddOn
+Microsoft Visual Studio Setup WMI Provider
+Windows Software Development Kit - Windows 10.0.22621.755
+Smart Microphone Setting
+AMD Radeon Software
+Centro comandi della grafica Intel®
+Microsoft Clipchamp
+Dolby Access
+Dolby Audio
+AV1 Video Extension
+Estensione video codificatore AVC
+Microsoft Advertising SDK for XAML
+Microsoft Advertising SDK for XAML
+Miglioramenti alla compatibilità delle applicazioni Windows
+Microsoft Bing
+MSN Meteo
+Riquadro comandi
+DirectX
+DirectX
+Microsoft Edge Game Assist
+Servizi di gioco
+Richiesta supporto
+Estensioni immagini HEIF
+Estensioni video HEVC del produttore del dispositivo
+italiano Pacchetto di esperienze locali
+Estensione video MPEG-2
+Visualizzatore 3D
+Microsoft Edge
+Microsoft 365 Copilot
+Microsoft Memo
+Microsoft .Net Native Framework Package 2.0
+Microsoft .Net Native Framework Package 2.2
+Microsoft .Net Native Framework Package 2.2
+Microsoft .Net Native Framework Package 2.2
+Microsoft .Net Native Runtime Package 2.0
+Microsoft .Net Native Runtime Package 2.2
+Microsoft .Net Native Runtime Package 2.2
+OfficePushNotificationsUtility
+Outlook for Windows
+Paint
+Contatti Microsoft
+PowerToys FileLocksmith Context Menu
+PowerToys ImageResizer Context Menu
+PowerToys PowerRename Context Menu
+Raw Image Extension
+Strumento di cattura
+Sicurezza di Windows
+Microsoft Engagement Framework
+Microsoft Engagement Framework
+Avvia app Esperienze
+Host esperienza dello Store
+Microsoft.UI.Xaml.2.0
+Microsoft.UI.Xaml.2.0
+Microsoft.UI.Xaml.2.1
+Microsoft.UI.Xaml.2.1
+Microsoft.UI.Xaml.2.3
+Microsoft.UI.Xaml.2.3
+Microsoft.UI.Xaml.2.4
+Microsoft.UI.Xaml.2.4
+Microsoft.UI.Xaml.2.5
+Microsoft.UI.Xaml.2.5
+Microsoft.UI.Xaml.2.6
+Microsoft.UI.Xaml.2.6
+Microsoft Visual C++ 2012 UWP Desktop Runtime Package
+Microsoft Visual C++ 2012 UWP Desktop Runtime Package
+Microsoft Visual C++ 2013 UWP Desktop Runtime Package
+Microsoft Visual C++ 2013 UWP Desktop Runtime Package
+Microsoft Visual C++ 2013 Runtime Package
+Microsoft Visual C++ 2013 Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+Microsoft Visual C++ 2015 UWP Runtime Package
+VP9 Video Extensions
+Estensioni file multimediali Web
+Estensioni immagini WebP
+Widgets Platform Runtime
+Windows App Runtime DDLM 3.469.1654.0-x6
+Windows App Runtime DDLM 3.469.1654.0-x8
+Dev Home GitHub Extension
+Windows Advanced Settings
+Microsoft Foto
+Orologio Windows
+WindowsAppRuntime.1.0
+WindowsAppRuntime.1.0
+WindowsAppRuntime.1.2
+WindowsAppRuntime.1.2
+WindowsAppRuntime.1.3
+WindowsAppRuntime.1.3
+WindowsAppRuntime.1.4
+WindowsAppRuntime.1.4
+WindowsAppRuntime.1.4
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.5
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.6
+WindowsAppRuntime.1.7
+WindowsAppRuntime.1.7
+WindowsAppRuntime.1.7
+WindowsAppRuntime.Singleton
+Calcolatrice Windows
+Fotocamera Windows
+Mappe Windows
+Blocco note di Windows
+Registratore di suoni di Windows
+Microsoft Store
+Windows Package Manager Source (winget) V2
+Game Bar
+Xbox Identity Provider
+Collegamento al telefono
+Assistenza rapida
+WindowsAppRuntime.Main.1.0
+Sottosistema Windows per Linux
+Windows Web Experience Pack
+Esperienze di host tra dispositivi
+Realtek Audio Control

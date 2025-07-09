@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2025-07-01T18:26:00.499-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.AppInstaller"
+        },
+        {
+          "PackageIdentifier": "Microsoft.WingetCreate"
+        },
+        {
+          "PackageIdentifier": "7zip.7zip"
+        },
+        {
+          "PackageIdentifier": "Audacity.Audacity"
+        },
+        {
+          "PackageIdentifier": "HermannSchinagl.LinkShellExtension"
+        },
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        },
+        {
+          "PackageIdentifier": "Transmission.Transmission"
+        },
+        {
+          "PackageIdentifier": "Apple.Bonjour"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode"
+        },
+        {
+          "PackageIdentifier": "Oracle.VirtualBox"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudio.2022.BuildTools"
+        },
+        {
+          "PackageIdentifier": "AngusJohnson.PDFTKBuilder"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerToys"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerShell"
+        },
+        {
+          "PackageIdentifier": "gerardog.gsudo"
+        },
+        {
+          "PackageIdentifier": "Python.Python.3.12"
+        },
+        {
+          "PackageIdentifier": "Python.Launcher"
+        },
+        {
+          "PackageIdentifier": "Microsoft.WindowsTerminal"
+        },
+
+        {
+          "PackageIdentifier": "Microsoft.MouseandKeyboardCenter"
+        },
+        {
+          "PackageIdentifier": "Mojang.MinecraftLauncher"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.11.400"
+}
