@@ -1,4 +1,4 @@
-# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install.sh | bash
+# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | bash
 # iwr -UseBasicParsing https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | iex
 
 curl -fL -o configs.tar.gz https://github.com/mattiamarchesini/configs/archive/refs/heads/main.tar.gz
