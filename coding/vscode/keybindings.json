@@ -1,0 +1,168 @@
+[
+  // TERMINAL
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.terminal.killActiveTab",
+    "when": "terminalFocus"
+  },
+  // all other must keybindings must ignore terminal ("when": "!terminalFocus")
+  {
+    "key": "ctrl+shift+tab",
+    "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "when": "!terminalFocus && !activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!terminalFocus && !activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!terminalFocus && !activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "projectManager.listProjects",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "-projectManager.listProjects",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "!terminalFocus && inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "!terminalFocus && inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "!terminalFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "!terminalFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "acceptSelectedSuggestion",
+    "when": "!terminalFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "showNextParameterHint",
+    "when": "!terminalFocus && editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "showPrevParameterHint",
+    "when": "!terminalFocus && editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.quickOpenView",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quickOpenView",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+    "when": "!terminalFocus && inQuickOpen && inViewsPicker"
+  },
+  {
+    "key": "alt+e",
+    "command": "errorLens.toggle",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "welcome.showNewFileEntries",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+win+n",
+    "command": "-welcome.showNewFileEntries",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+k o",
+    "command": "workbench.action.files.openFile",
+    "when": "!terminalFocus && !inQuickOpen"
+  },
+  {
+    "key": "ctrl+k o",
+    "command": "-workbench.action.files.showOpenedFileInNewWindow",
+    "when": "!terminalFocus && emptyWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "workbench.action.files.openFolder",
+    "when": "!terminalFocus && !inQuickOpen && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder",
+    "when": "!terminalFocus && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+l c",
+    "command": "-extension.copyGitHubLinkToClipboard"
+  },
+  {
+    "key": "ctrl+l c",
+    "command": "extension.copyGitHubLinkToClipboard",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+l g",
+    "command": "-extension.openInGitHub"
+  },
+  {
+    "key": "ctrl+l g",
+    "command": "extension.openInGitHub",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+l p",
+    "command": "-extension.openPrGitProvider"
+  },
+  {
+    "key": "ctrl+l p",
+    "command": "extension.openPrGitProvider",
+    "when": "!terminalFocus"
+  }
+]
