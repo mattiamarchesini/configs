@@ -83,8 +83,6 @@
   ],
   //   SETTINGSSYNC
   "settingsSync.ignoredSettings": [
-    "logViewer.watch",
-    //"-git.defaultCloneDirectory",
     "yaml.schemas",
     "projectManager.any.baseFolders"
   ],
@@ -121,7 +119,6 @@
   //JAVA
   //YAML
   "yaml.schemas": {
-    "file:///d%3A/vscode-extensions/atlassian.atlascode-3.8.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   //PYTHON
   "jupyter.alwaysTrustNotebooks": true,
@@ -137,7 +134,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   //XML
   "[xml]": {
@@ -153,19 +150,12 @@
   },
   //   TERMINAL
   "terminal.integrated.enableMultiLinePasteWarning": "never",
-  //   OTHER
-  "remote.WSL.debug": true,
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "color-highlight.markerType": "dot-before",
   "explorer.confirmDelete": false,
-  "logViewer.watch": [
-    {
-      "title": "php log windows",
-      "pattern": "c:/xampp/php/logs/php_error_log"
-    }
-  ],
   "testExplorer.useNativeTesting": true,
   "security.workspace.trust.enabled": false,
-  "hediet.vscode-drawio.resizeImages": null
+  "hediet.vscode-drawio.resizeImages": null,
+  "dev.containers.executeInWSL": true
 }
