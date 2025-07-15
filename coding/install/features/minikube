@@ -26,4 +26,3 @@ esac
 
 wget https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-${arch} -O ~/.local/bin/minikube
 chmod +x ~/.local/bin/minikube
-

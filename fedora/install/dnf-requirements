@@ -11,3 +11,4 @@ python3
 man-db
 man-pages
 dnf-plugins-core
+shadow-utils

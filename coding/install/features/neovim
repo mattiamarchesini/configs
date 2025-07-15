@@ -25,7 +25,7 @@ feature_neovim() {
   chmod u+x $HOME/.cache/nvim
   mv -f $HOME/.cache/nvim $HOME/.local/bin/nvim
 
-  VENV_DIR="$HOME/.local/share/pyenvs/"
+  VENV_DIR="$HOME/.local/share/pyvenvs/"
   if [ -d "$VENV_DIR" ]; then
     NEOVIM_VENV_PATH="$VENV_DIR/neovim"
     python3 -m venv "$NEOVIM_VENV_PATH"
