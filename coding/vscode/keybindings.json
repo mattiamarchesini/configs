@@ -15,7 +15,12 @@
     "command": "workbench.action.terminal.killActiveTab",
     "when": "terminalFocus"
   },
-  // all other must keybindings must ignore terminal ("when": "!terminalFocus")
+  {
+    "key": "ctrl+k",
+    "command": "noop",
+    "when": "terminalFocus"
+  },
+  // all other keybindings must ignore terminal ("when": "!terminalFocus")
   {
     "key": "ctrl+shift+tab",
     "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"
