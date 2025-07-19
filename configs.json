@@ -1,3 +1,4 @@
 {
-  "scriptPath": "scripts/"
+  "scriptPath": "scripts/",
+  "ignoreFolders": [ "docs/" ]
 }
