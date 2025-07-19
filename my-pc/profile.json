@@ -1,6 +1,8 @@
 {
-  "from": "windows"
+  "from": "windows",
   "subsystems": {
-    "wsl" {}
+    "wsl": {
+      "a": "b"
+    }
   }
 }
