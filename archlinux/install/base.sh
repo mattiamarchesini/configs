@@ -1,0 +1,1 @@
+pacman -Syu --no-confirm base base-devel bash bash-completion curl wget git yq tar gzip less nano python man-db man-pages sudo
