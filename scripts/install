@@ -1,11 +1,14 @@
-# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | bash
+# Set $PROFILE and $INSTALL_ARGS variables then,
 
+# To run on Unix-like OSs:
+# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | sh
+
+# To run on Windows:
 # Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy AllSigned
 # iwr -UseBasicParsing https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/install | iex
 
 curl -fL -o configs.tar.gz https://github.com/mattiamarchesini/configs/archive/refs/heads/main.tar.gz
 tar -xzf configs.tar.gz
 cd configs-main
-./$PROFILE/install/base
+./profiles/$PROFILE/install/base
 python3 scripts/cfg.py install $PROFILE $INSTALL_ARGS
-
