@@ -10,6 +10,8 @@ christian-kohler.path-intellisense
 IgorSbitnev.error-gutters
 ms-azuretools.vscode-containers
 ms-kubernetes-tools.vscode-kubernetes-tools
+opentofu.vscode-opentofu
+Postman.postman-for-vscode
 Perkovec.emoji
 bierner.markdown-emoji
 tamasfe.even-better-toml

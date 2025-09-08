@@ -1,7 +1,7 @@
 {
   "from": "none",
   "shell": "bash",
-  "paths":{
+  "paths": {
     "scripts/*": "~/.local/bin/",
     "etc/*": {
       "path": "/etc/",
@@ -9,11 +9,11 @@
     },
     "bash/*": {
       "strategy": "concatenate"
-    }
+    },
     "bash/bashrc": {
       "path": "~/.bashrc",
       "strategy": "concatenate"
-    }
+    },
     "bash/profile": {
       "path": "~/.bash_profile",
       "strategy": "concatenate"
