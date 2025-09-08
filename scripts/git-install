@@ -1,0 +1,13 @@
+# Set $PROFILE and $INSTALL_ARGS variables then,
+
+# To run on Unix-like OSs:
+# curl https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/git-install | sh
+
+# To run on Windows:
+# Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy AllSigned
+# iwr -UseBasicParsing https://raw.githubusercontent.com/mattiamarchesini/configs/main/scripts/git-install | iex
+
+git clone https://github.com/mattiamarchesini/configs/
+cd configs-main
+./profiles/$PROFILE/install/base
+python3 scripts/cfg.py install $PROFILE $INSTALL_ARGS
