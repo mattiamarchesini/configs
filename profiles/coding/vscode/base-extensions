@@ -11,7 +11,7 @@ IgorSbitnev.error-gutters
 ms-azuretools.vscode-containers
 ms-kubernetes-tools.vscode-kubernetes-tools
 opentofu.vscode-opentofu
-Postman.postman-for-vscode
+bruno-api-client.bruno
 Perkovec.emoji
 bierner.markdown-emoji
 tamasfe.even-better-toml
@@ -24,3 +24,4 @@ jock.svg
 ms-vscode.test-adapter-converter
 hbenl.vscode-test-explorer
 Gruntfuggly.todo-tree
+mhutchie.git-graph
