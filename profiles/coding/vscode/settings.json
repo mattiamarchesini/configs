@@ -43,8 +43,9 @@
   // you can toggle with alt+\
   "github.copilot.inlineSuggest.enabled": false,
   "chat.instructionsFilesLocations": {
-    ".github/instructions": true
+    ".github/instructions": true,
     //"/tmp/postman-collections-post-response.instructions.md": true
+    "~/Documents/git/mattia/mcp-instructions": true
   },
   //   GIT
   "git.autofetch": true,
@@ -65,11 +66,6 @@
     "plaintext"
   ],
   "spellright.ignoreFiles": ["**/.gitignore", "**/.spellignore", "**/.vscode/"],
-  "spellright.parserByClass": {
-    "dart": {
-      "parser": "code"
-    }
-  },
   "spellright.ignoreRegExps": [],
   "spellright.notificationClass": "hint",
   //   SETTINGSSYNC
@@ -97,9 +93,9 @@
   //MARKDOWN
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-    //"editor.rulers": []
   },
   "markdown.updateLinksOnFileMove.enabled": "always",
+  "reflowMarkdown.preferredLineLength": 120,
   //JSON
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
