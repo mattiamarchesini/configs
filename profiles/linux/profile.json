@@ -1,7 +1,4 @@
 {
-    "from":"unix",
-    "paths":{
-      "a":{}
-    },
-    ""
+  "from": "unix",
+  "paths": {}
 }
