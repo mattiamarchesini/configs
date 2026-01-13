@@ -1,1 +1,11 @@
-{}
+{
+  "shells": {
+    "sh": {},
+    "bash": {},
+    "zsh": {},
+    "fish": {},
+    "cmd": {},
+    "powershell": {},
+    "pwsh": {}
+  }
+}

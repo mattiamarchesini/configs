@@ -78,10 +78,10 @@
     "FIXME",
     "TODO",
     "XXX",
-    "[ ]",
+    "[]",
     "[x]"
   ],
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regex": "(//|#!<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   //   ZEN MODE
   "zenMode.hideLineNumbers": false,
   "zenMode.fullScreen": false,

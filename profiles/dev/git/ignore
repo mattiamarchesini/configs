@@ -3,6 +3,31 @@ dist/
 build/
 out/
 
+.env/
+
+# Compiled source files
+## Executables
+*.com
+*.class
+*.dll
+*.exe
+*.app
+*.out
+## Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+## Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+## Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
 # Node.js
 node_modules/
 npm-debug.log*
@@ -15,12 +40,12 @@ __pycache__/
 *.py[cod]
 *.egg
 *.egg-info/
-.env/
 .venv/
 venv/
 
 # Logs
 *.log
+log/
 logs/
 *.pid
 
@@ -30,19 +55,7 @@ logs/
 *.sublime-workspace
 *.sublime-project
 
-# Compiled source
-*.class
-*.o
-*.exe
-*.out
-*.dll
-*.so
-*.dylib
-*.lib
-*.a
-
-
-# Backup & temp files
+# Backup and Temp files
 *~
 ~*
 *.swp
@@ -55,9 +68,28 @@ logs/
 
 # Archives
 *.zip
-*.tar.gz
 *.rar
 *.7z
+*.war
+*.tar.gz
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.iso
+*.dmg
+*.jar
+*.lzma
+*.cab
+*.msi
+*.msm
+*.msp
+*.deb
+*.rpm
+*.apk
+*.egg
+*.whl
 
 # Code coverage
 coverage/
@@ -65,9 +97,13 @@ coverage/
 *.lcov
 .nyc_output/
 
-# OS generated
+# OS generated files
 [Tt]humbs.db
 ehthumbs.db
 Desktop.ini
 Icon?
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes

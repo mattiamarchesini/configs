@@ -1,0 +1,9 @@
+Host *
+    # No need to ssh-add your keys anymore
+    AddKeysToAgent yes
+
+Host mywork.com
+    HostName mywork.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519_work
+    IdentitiesOnly yes

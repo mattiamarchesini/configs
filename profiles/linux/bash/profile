@@ -1,0 +1,7 @@
+export XDG_CONFIG_DEFAULT_HOME="~/.config"
+set -o allexport
+. $XDG_CONFIG_DEFAULT_HOME/env
+set +o allexport
+
+
+test -f ~/.bashrc && . ~/.bashrc
