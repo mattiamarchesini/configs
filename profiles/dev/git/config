@@ -2,11 +2,13 @@
     # Defaults to XDG or ~/.config/git/
     # excludesfile = ~/.config/git/ignore
     # attributesFile = ~/.config/git/attributes
-[init]
-    defaultBranch = main
 [user]
     name = Mattia Marchesini
     email = mattia.marchesini1999@gmail.com
+[init]
+    defaultBranch = main
+[pull]
+    rebase = true
 [difftool]
     prompt = true
 [difftool "vscode_diff"]

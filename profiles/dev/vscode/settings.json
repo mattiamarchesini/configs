@@ -9,19 +9,31 @@
     "**/.dart_tool": true,
     "**/.ipynb_checkpoints": true,
     "**/env": true,
-    "**/.metadata": true
+    "**/.metadata": true,
   },
   //   WORKBENCH
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
+  // needed for extension cweijan.vscode-office
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.markdown": "default",
+  },
   //   EDITOR
   "editor.minimap.enabled": false,
+  "editor.autoIndent": "advanced",
+  "editor.insertSpaces": true,
   "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off",
+  },
   "editor.rulers": [120],
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.linkedEditing": true,
   "editor.detectIndentation": false,
   "editor.suggest.localityBonus": true,
@@ -31,11 +43,15 @@
   "editor.unicodeHighlight.includeComments": true,
   //"editor.cursorSurroundingLines": 1000,
   "editor.smoothScrolling": true,
-  "editor.experimentalGpuAcceleration": "on",
+  "editor.experimentalGpuAcceleration": "off",
+  "editor.renderFinalNewline": "off",
   //   WINDOW
   "window.openFoldersInNewWindow": "off",
   "window.newWindowDimensions": "maximized",
   "window.restoreFullscreen": true,
+  //   EXPLORER
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   //   TERMINAL
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.stickyScroll.enabled": false,
@@ -45,7 +61,7 @@
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
     //"/tmp/postman-collections-post-response.instructions.md": true
-    "~/Documents/git/mattia/mcp-instructions": true
+    "~/Documents/git/mattia/mcp-instructions": true,
   },
   //   GIT
   "git.autofetch": true,
@@ -63,7 +79,7 @@
     "markdown",
     "text",
     "yaml",
-    "plaintext"
+    "plaintext",
   ],
   "spellright.ignoreFiles": ["**/.gitignore", "**/.spellignore", "**/.vscode/"],
   "spellright.ignoreRegExps": [],
@@ -78,10 +94,10 @@
     "FIXME",
     "TODO",
     "XXX",
-    "[]",
-    "[x]"
+    "[ ]",
+    "[x]",
   ],
-  "todo-tree.regex.regex": "(//|#!<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   //   ZEN MODE
   "zenMode.hideLineNumbers": false,
   "zenMode.fullScreen": false,
@@ -89,38 +105,51 @@
   "errorLens.enabledDiagnosticLevels": ["warning", "info", "error", "hint"],
   "errorLens.enabled": false,
   //   LANGUAGE-SPECIFIC SETTINGS
-  //PYTHON
-  //MARKDOWN
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  //
+  "[dockercompose]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  //
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  //
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  //
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "markdown.updateLinksOnFileMove.enabled": "always",
-  "reflowMarkdown.preferredLineLength": 120,
-  //JSON
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  //XML
+  "reflowMarkdown.preferredLineLength": 120, // count is a little broken
+  //
+  "[python]": {},
+  "python.analysis.persistAllIndices": false,
+  "python.createEnvironment.trigger": "off",
+  "python.analysis.autoImportCompletions": true,
+  "python.createEnvironment.contentButton": "show",
+  //
   "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
+    "editor.defaultFormatter": "redhat.vscode-xml",
   },
-  //YAML
+  //
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  //CSS
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  //
 
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "color-highlight.markerType": "dot-before",
-  "explorer.confirmDelete": false,
   "testExplorer.useNativeTesting": true,
   "security.workspace.trust.enabled": false,
-  "dev.containers.executeInWSL": true
+  "dev.containers.executeInWSL": true,
 }
