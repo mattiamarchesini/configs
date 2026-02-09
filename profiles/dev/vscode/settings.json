@@ -9,7 +9,7 @@
     "**/.dart_tool": true,
     "**/.ipynb_checkpoints": true,
     "**/env": true,
-    "**/.metadata": true,
+    "**/.metadata": true
   },
   //   WORKBENCH
   "workbench.startupEditor": "none",
@@ -17,7 +17,7 @@
   // needed for extension cweijan.vscode-office
   "workbench.editorAssociations": {
     "*.md": "default",
-    "*.markdown": "default",
+    "*.markdown": "default"
   },
   //   EDITOR
   "editor.minimap.enabled": false,
@@ -27,15 +27,15 @@
   "editor.quickSuggestions": {
     "other": "off",
     "comments": "off",
-    "strings": "off",
+    "strings": "off"
   },
-  "editor.rulers": [120],
+  "editor.rulers": [ 120 ],
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.formatOnSave": false,
   "editor.linkedEditing": true,
-  "editor.detectIndentation": false,
+  "editor.detectIndentation": true,
   "editor.suggest.localityBonus": true,
   "editor.stickyScroll.enabled": false,
   "editor.unicodeHighlight.invisibleCharacters": true,
@@ -44,7 +44,6 @@
   //"editor.cursorSurroundingLines": 1000,
   "editor.smoothScrolling": true,
   "editor.experimentalGpuAcceleration": "off",
-  "editor.renderFinalNewline": "off",
   //   WINDOW
   "window.openFoldersInNewWindow": "off",
   "window.newWindowDimensions": "maximized",
@@ -61,7 +60,7 @@
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
     //"/tmp/postman-collections-post-response.instructions.md": true
-    "~/Documents/git/mattia/mcp-instructions": true,
+    "~/Documents/git/mattia/mcp-instructions": true
   },
   //   GIT
   "git.autofetch": true,
@@ -73,19 +72,28 @@
   //"atlascode.jira.enabled": true,
   //   SPELLRIGHT
   "spellright.configurationScope": "user",
-  "spellright.language": ["en", "it"],
+  "spellright.language": [
+    "en",
+    "it"
+  ],
   "spellright.documentTypes": [
     "latex",
     "markdown",
     "text",
     "yaml",
-    "plaintext",
+    "plaintext"
   ],
-  "spellright.ignoreFiles": ["**/.gitignore", "**/.spellignore", "**/.vscode/"],
-  "spellright.ignoreRegExps": [],
+  "spellright.ignoreFiles": [
+    "**/.gitignore",
+    "**/.spellignore",
+    "**/.vscode/"
+  ],
+  "spellright.ignoreRegExps": [ ],
   "spellright.notificationClass": "hint",
   //   SETTINGSSYNC
-  "settingsSync.ignoredSettings": ["yaml.schemas"],
+  "settingsSync.ignoredSettings": [
+    "yaml.schemas"
+  ],
   "settingsSync.keybindingsPerPlatform": false,
   //   TODOTREE
   "todo-tree.general.tags": [
@@ -95,61 +103,62 @@
     "TODO",
     "XXX",
     "[ ]",
-    "[x]",
+    "[x]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   //   ZEN MODE
   "zenMode.hideLineNumbers": false,
   "zenMode.fullScreen": false,
   //   ERROR LENS
-  "errorLens.enabledDiagnosticLevels": ["warning", "info", "error", "hint"],
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "info",
+    "error",
+    "hint"
+  ],
   "errorLens.enabled": false,
   //   LANGUAGE-SPECIFIC SETTINGS
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  //
   "[dockercompose]": {
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  //
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   //
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "json.format.keepLines": true,
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  //
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   },
   //
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.markdown-language-features"
   },
   "markdown.updateLinksOnFileMove.enabled": "always",
-  "reflowMarkdown.preferredLineLength": 120, // count is a little broken
+  "reflowMarkdown.preferredLineLength": 120, // count may be a little broken
   //
-  "[python]": {},
+  "[python]": { },
   "python.analysis.persistAllIndices": false,
   "python.createEnvironment.trigger": "off",
   "python.analysis.autoImportCompletions": true,
   "python.createEnvironment.contentButton": "show",
   //
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml",
-  },
-  //
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  //
-
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "color-highlight.markerType": "dot-before",
   "testExplorer.useNativeTesting": true,
   "security.workspace.trust.enabled": false,
   "dev.containers.executeInWSL": true,
+  "hediet.vscode-drawio.resizeImages": null
+  // "http.systemCertificatesNode": true // needed for gemini code assist
 }

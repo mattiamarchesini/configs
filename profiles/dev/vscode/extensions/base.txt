@@ -2,8 +2,7 @@ ban.spellright
 bierner.markdown-emoji
 bruno-api-client.bruno
 christian-kohler.path-intellisense
-cweijan.vscode-offic
-esbenp.prettier-vscode
+cweijan.vscode-office
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
 IgorSbitnev.error-gutters
