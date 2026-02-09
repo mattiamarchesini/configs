@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  dev:
+    container_name: dev-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    # --- 1. PRIVILEGED ACCESS ---
+    # Required to bypass isolation for certain low-level host commands.
+    privileged: true
+
+    # --- 2. DOCKER CONTROL ---
+    # Mount the Docker socket to allow the container to control the host's Docker daemon.
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+
+      # Mount the host's root filesystem (optional, but needed for many host commands)
+      # - /:/host:ro
+
+    # --- 3. SETUP & COMMAND ---
+    # Use a build context to install the necessary tools (Docker CLI, Process tools, etc.)
+
+    # Keep the container running indefinitely
+    command: sleep infinity

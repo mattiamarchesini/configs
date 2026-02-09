@@ -1,0 +1,35 @@
+{
+  "name": "Dev Environment",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "dev", // <-- which container to attach to
+  "workspaceFolder": "/workspaces/", // <-- The main folder to open
+
+  // Instead we need to do this hack:
+  "postCreateCommand": "code --goto /workspaces/dev.code-workspace && post-create-cmd",
+
+  // 2. Customizations for VS Code
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.wordWrap": "on",
+        "editor.tabSize": 2
+      },
+      "extensions": [
+        "ms-python.python",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "hashicorp.terraform"
+      ]
+    }
+  }
+
+  // These volumes must match what you define in your docker-compose.yml
+  //   "mounts": [
+  //     // This example mounts the entire parent directory into the /workspaces directory
+  //     // inside the container, giving access to multiple project folders.
+  //     "source=${localWorkspaceFolder}/../..",
+  //     "target=/workspaces",
+  //     "type=bind"
+  //   ]
+}

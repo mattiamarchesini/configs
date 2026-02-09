@@ -3,6 +3,8 @@
   "shell": "powershell",
   "paths": {},
   "subsystems": {
-    "wsl": null
+    "wsl": null,
+    "hyper-v": null,
+    "docker-desktop": null
   }
 }

@@ -1,1 +1,5 @@
-MANPATH=/opt/homebrew/opt/coreutils/share/man:
+PATH="~/.local/bin:$PATH"
+LESSHISTFILE=-
+
+# Important for coreutils installed via homebrew
+MANPATH='/opt/homebrew/opt/coreutils/share/man:'

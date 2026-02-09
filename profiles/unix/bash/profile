@@ -1,8 +1,0 @@
-export XDG_CONFIG_DIR="~/.config"
-set -o allexport
-. $XDG_CONFIG_DIR/env
-set +o allexport
-
-
-test -f ~/.bashrc && . ~/.bashrc
-

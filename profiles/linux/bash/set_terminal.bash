@@ -1,17 +1,14 @@
-# REMEMBER: source this script before aliases.sh and after 
+# Colorized terminal output ############################################################################################
 
+color_prompt='no'
 case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
+    xterm*|*-256color|rxvt*) color_prompt='yes';;
 esac
+export $color_prompt
 
-# If We have color support; assume it's compliant with Ecma-48
-# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-# a case would tend to support setf rather than setaf.)
-if [ command -v tput ] && tput setaf 1 >&/dev/null; then
-
-    export COLOR_PROMPT=yes
-    export PS1=
-
+# If We have color support; assume it's compliant with Ecma-48 (ISO/IEC-6429). Lack of such support is extremely rare,
+# and such a case would tend to support setf rather than setaf.
+if [ "$color_prompt" = yes ] && [ "$(command -v tput)" ] && tput setaf 1 >&/dev/null; then
 
     # Enable dircolor color support
     if command -v dircolors > /dev/null; then
@@ -20,12 +17,14 @@ if [ command -v tput ] && tput setaf 1 >&/dev/null; then
         #LS_COLORS=''
         #GREP_COLORS=''
 
+        shopt -s expand_aliases
         alias ls=/usr/bin/ls --color=auto
         alias dir=/usr/bin/dir --color=auto
-        alias vdi=/usr/bin/vdir --color=auto
+        alias vdir=/usr/bin/vdir --color=auto
         alias grep=/usr/bin/grep --color=auto
         alias fgrep=/usr/bin/fgrep --color=auto
         alias egrep=/usr/bin/egrep --color=auto
+        shopt -u expand_aliases
     fi
 
     # colored GCC warnings and errors
@@ -34,8 +33,5 @@ if [ command -v tput ] && tput setaf 1 >&/dev/null; then
     # make less more friendly for non-text input files, see lesspipe(1)
     if command -v lesspipe > /dev/null; then eval "$(SHELL=/bin/sh lesspipe)"; fi
 
-else
-    export COLOR_PROMPT=no
-    export PS1=
 fi
 

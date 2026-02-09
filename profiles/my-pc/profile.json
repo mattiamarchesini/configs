@@ -1,5 +1,6 @@
 {
   "from": "windows",
+  "getFromProfile": { "dev": "*" },
   "subsystems": {
     "wsl": {}
   }
