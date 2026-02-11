@@ -1,0 +1,14 @@
+[allowlist]
+description = "Ignore only if specific markers are present in YAMLs"
+
+regexes = [
+    # Matches files containing both 'kind: Secret' AND 'sops:'
+    '''(?s)kind: Secret.*sops:''',
+
+    # Matches files containing both 'kind: ClusterIssuer' AND 'key:'
+    '''(?s)kind: ClusterIssuer.*key:*'''
+]
+
+paths = [
+    '''(?i).*\.ya?ml$'''
+]
