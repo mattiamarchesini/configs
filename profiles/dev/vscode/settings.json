@@ -29,7 +29,7 @@
     "comments": "off",
     "strings": "off"
   },
-  "editor.rulers": [ 120 ],
+  "editor.rulers": [ 100 ],
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "editor.bracketPairColorization.enabled": true,
@@ -145,7 +145,7 @@
     "editor.defaultFormatter": "vscode.markdown-language-features"
   },
   "markdown.updateLinksOnFileMove.enabled": "always",
-  "reflowMarkdown.preferredLineLength": 120, // count may be a little broken
+  "reflowMarkdown.preferredLineLength": 100, // count may be a little broken
   //
   "[python]": { },
   "python.analysis.persistAllIndices": false,
