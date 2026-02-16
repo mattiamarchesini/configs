@@ -15,12 +15,8 @@
     "command": "workbench.action.terminal.killActiveTab",
     "when": "terminalFocus"
   },
-  {
-    "key": "ctrl+k",
-    "command": "noop",
-    "when": "terminalFocus"
-  },
-  // all other keybindings must ignore terminal ("when": "!terminalFocus")
+
+  // all other keybindings should ignore terminal ("when": "!terminalFocus")
   {
     "key": "ctrl+shift+tab",
     "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"
@@ -47,11 +43,6 @@
     "key": "ctrl+tab",
     "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
     "when": "!terminalFocus && !activeEditorGroupEmpty"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "projectManager.listProjects",
-    "when": "!terminalFocus"
   },
   {
     "key": "shift+alt+p",
@@ -123,51 +114,42 @@
     "command": "-welcome.showNewFileEntries",
     "when": "!terminalFocus"
   },
-  {
-    "key": "ctrl+k o",
-    "command": "workbench.action.files.openFile",
-    "when": "!terminalFocus && !inQuickOpen"
-  },
+
   {
     "key": "ctrl+k o",
     "command": "-workbench.action.files.showOpenedFileInNewWindow",
     "when": "!terminalFocus && emptyWorkspaceSupport"
   },
   {
-    "key": "ctrl+k ctrl+o",
-    "command": "workbench.action.files.openFolder",
-    "when": "!terminalFocus && !inQuickOpen && openFolderWorkspaceSupport"
+    "key": "ctrl+k o",
+    "command": "workbench.action.files.openFile",
+    "when": "!terminalFocus && !inQuickOpen"
   },
   {
     "key": "ctrl+k ctrl+o",
     "command": "-workbench.action.files.openFolder",
     "when": "!terminalFocus && openFolderWorkspaceSupport"
   },
+  //   {
+  //     "key": "ctrl+k ctrl+o",
+  //     "command": "workbench.action.addRootFolder",
+  //     "when": "!terminalFocus && enterMultiRootWorkspaceSupport || workbenchState == 'workspace'"
+  //   },
   {
-    "key": "ctrl+l c",
-    "command": "-extension.copyGitHubLinkToClipboard"
-  },
-  {
-    "key": "ctrl+l c",
-    "command": "extension.copyGitHubLinkToClipboard",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "ctrl+l g",
-    "command": "-extension.openInGitHub"
-  },
-  {
-    "key": "ctrl+l g",
-    "command": "extension.openInGitHub",
-    "when": "!terminalFocus"
+    "key": "ctrl+k ctrl+o",
+    "command": "workbench.action.files.openFolder",
+    "when": "!terminalFocus && !inQuickOpen && openFolderWorkspaceSupport"
   },
   {
     "key": "ctrl+l p",
-    "command": "-extension.openPrGitProvider"
-  },
-  {
-    "key": "ctrl+l p",
-    "command": "extension.openPrGitProvider",
+    "command": "-extension.openPrGitProvider",
     "when": "!terminalFocus"
+  },
+
+  // Apparently must be last to work as intended
+  {
+    "key": "ctrl+k",
+    "command": "noop",
+    "when": "terminalFocus"
   }
 ]
