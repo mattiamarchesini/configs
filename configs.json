@@ -7,5 +7,10 @@
     "cmd": {},
     "powershell": {},
     "pwsh": {}
+  },
+  "profiles": {
+    "subProfiles": {
+      "dir": "profiles"
+    }
   }
 }
