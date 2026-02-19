@@ -63,7 +63,7 @@
     "~/Documents/git/mattia/mcp-instructions": true
   },
   //   GIT
-  "git.autofetch": true,
+  "git.autofetch": "all",
   "git.confirmSync": false,
   "git.defaultCloneDirectory": "~/Documents/git",
   "github.gitProtocol": "ssh",
