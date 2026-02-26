@@ -1,3 +1,4 @@
+atlassian.atlascode
 ban.spellright
 bierner.markdown-emoji
 bruno-api-client.bruno

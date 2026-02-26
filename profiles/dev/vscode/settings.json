@@ -68,8 +68,9 @@
   "git.defaultCloneDirectory": "~/Documents/git",
   "github.gitProtocol": "ssh",
   //   JIRA & BITBUCKET
-  //"atlascode.bitbucket.enabled": true,
-  //"atlascode.jira.enabled": true,
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.rovodev.enabled": false,
   //   SPELLRIGHT
   "spellright.configurationScope": "user",
   "spellright.language": [
@@ -160,5 +161,4 @@
   "security.workspace.trust.enabled": false,
   "dev.containers.executeInWSL": true,
   "hediet.vscode-drawio.resizeImages": null
-  // "http.systemCertificatesNode": true // needed for gemini code assist
 }
