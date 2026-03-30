@@ -3,6 +3,7 @@ dist/
 build/
 out/
 
+.env
 .env/
 
 # Compiled source files
