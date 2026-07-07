@@ -1,3 +1,4 @@
 {
-  "from": "dev"
+  "from": "dev",
+  "platform": "linux/x86_64"
 }

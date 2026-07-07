@@ -1,0 +1,6 @@
+[include]
+    path = ~/AppData/Local/git/config
+[init]
+    sshcommand = C:/Windows/System32/OpenSSH/ssh.exe
+[core]
+    pager = more.com

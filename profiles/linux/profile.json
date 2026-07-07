@@ -1,5 +1,6 @@
 {
   "from": "none",
+  "platform": "linux",
   "shell": "bash",
   "meta": true,
   "paths": {
