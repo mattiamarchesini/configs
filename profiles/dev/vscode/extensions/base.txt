@@ -4,7 +4,7 @@ bierner.markdown-emoji
 bruno-api-client.bruno
 christian-kohler.path-intellisense
 cweijan.vscode-office
-Gruntfuggly.todo-tree
+FanaticPythoner.better-todo-tree
 hbenl.vscode-test-explorer
 IgorSbitnev.error-gutters
 jock.svg
